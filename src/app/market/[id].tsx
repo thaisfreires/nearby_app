@@ -9,7 +9,7 @@ import { Cover } from "@/components/market/cover"
 import { Coupon } from "@/components/market/coupon"
 import { Details, PropsDetails } from "@/components/market/details"
 
-import { api } from "@/services/api"
+import { api } from "@/service/api"
 
 type DataProps = PropsDetails & {
   cover: string
